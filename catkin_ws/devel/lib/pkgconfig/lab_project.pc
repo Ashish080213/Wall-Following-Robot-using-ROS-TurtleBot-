@@ -1,0 +1,8 @@
+prefix=/home/user/catkin_ws/devel
+
+Name: lab_project
+Description: Description of lab_project
+Version: 0.0.0
+Cflags: -I/home/user/catkin_ws/devel/include
+Libs: -L${prefix}/lib 
+Requires: rospy

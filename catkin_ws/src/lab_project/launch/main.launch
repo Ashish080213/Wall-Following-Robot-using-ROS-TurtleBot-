@@ -1,0 +1,5 @@
+<launch>
+    <node pkg="lab_project" type="robot_service_server.py" name="service_node" output="screen" />
+    <node pkg="lab_project" type="robot_action_server.py" name="Odom_node" output="screen" />
+    <node pkg="lab_project" type="projecttest.py" name="project_node" output="screen" />
+</launch>
